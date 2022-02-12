@@ -45,26 +45,20 @@ Prewitt and Sobel filters are directional edge detector that are used to detect 
 ![1_3](https://user-images.githubusercontent.com/84965044/153727358-34af10f0-a365-4348-8044-576130a84614.png)
 ![1_4](https://user-images.githubusercontent.com/84965044/153727361-830df46d-6808-4345-81d4-ef3831f31ed6.png)
     
-    
-
-    
 ### *Laplacian of Gaussian filter*
 <p align="justify">
     Laplacian of gaussian is edge detector that is used to detect edges in both horizontal and vertical directions. It easily detects edges and it has fixed characteristics in all direction. It fails to function properly at the corner, curves and where the gray level intensity function varies.
 
-
-![1_6](https://user-images.githubusercontent.com/84965044/153727333-13d227d3-b6b9-4a38-b226-5826eb8e3e60.jpg)
-![1_6](https://user-images.githubusercontent.com/84965044/153727337-c669045d-fa14-4fe9-9b11-fc23a695e69f.png)
-
-
-    
+![1_5](https://user-images.githubusercontent.com/84965044/153727363-9958bc1e-412c-4053-bcfd-6730d40dcc48.jpg)  
+![1_5](https://user-images.githubusercontent.com/84965044/153727326-35f4cb4b-2454-4410-8754-0531387d9c6d.png)
+ 
 ### *Derivative of Gaussian filter*
 <p align="justify">
     Derivative of gaussian is also directional edge detector that is used to detect edges in either horizontal or vertical direction. As derivatives are very sensitive to noise so First it smooths the images and then apply derivative to detect edges. The main advantage of derivative of gaussian, it is robust in noisy image. But it has following disadvantages as it is directional and post-processing is needed for "edge thinning" as the response to a step edge is across several pixels.
 
-![1_5](https://user-images.githubusercontent.com/84965044/153727363-9958bc1e-412c-4053-bcfd-6730d40dcc48.jpg)  
-![1_5](https://user-images.githubusercontent.com/84965044/153727326-35f4cb4b-2454-4410-8754-0531387d9c6d.png)
-    
+
+![1_6](https://user-images.githubusercontent.com/84965044/153727333-13d227d3-b6b9-4a38-b226-5826eb8e3e60.jpg)
+![1_6](https://user-images.githubusercontent.com/84965044/153727337-c669045d-fa14-4fe9-9b11-fc23a695e69f.png)   
     
 ### *Canny Edge Detector*
 <p align="justify">
