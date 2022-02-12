@@ -5,9 +5,12 @@ Filtering is a technique for modifying or enhancing an image. Spatial domain ope
 ## 1. Smoothing Spatial Filter
 Smoothing filter is used for blurring and noise reduction in the image. Blurring is pre-processing steps for removal of small details and Noise Reduction is accomplished by blurring.
 
-### *Average and Gaussian filter*
-The average filter is a uniform low pass filter whereas the Gaussian filter is a non-uniform low pass filter. Both are used to remove fine details and noise from the images.
+### *Average filter*
+The average filter is a uniform low pass filter. It is used to remove fine details and noise from the images.
 
 The problem with average filter is that it blurred the edges when large neighborhoods are used to remove noise. The Point Spread Function (PSF) of average filter is “Sinc” in special domain which has negative side lobes causes ringing effects as well. 
 
-On the other hand, the PSF of gaussian filter has positive side lobes which avoid ringing effects. The gaussian filter depend upon the value of standard deviation as larger values of standard deviation produce a wider peak (greater blurring).
+### *Gaussian filter*
+The Gaussian filter is a non-uniform low pass filter. It is also used to remove fine details and noise from the images.
+
+The PSF of gaussian filter has positive side lobes which avoid ringing effects. The gaussian filter depend upon the value of standard deviation as larger values of standard deviation produce a wider peak (greater blurring).
