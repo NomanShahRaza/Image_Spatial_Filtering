@@ -1,11 +1,15 @@
 # Image Spatial Filtering
+<p align="justify">
+    Filtering is a technique for modifying or enhancing an image. Spatial domain operation or filtering (the processed value for the current pixel depends on both itself and surrounding pixels). Hence Filtering is a neighborhood operation, in which the value of any given pixel in the output image is determined by applying some algorithm to the values of the pixels in the neighborhood of the corresponding input pixel. A pixel's neighborhood is some set of pixels, defined by their locations relative to that pixel.
 
-Filtering is a technique for modifying or enhancing an image. Spatial domain operation or filtering (the processed value for the current pixel depends on both itself and surrounding pixels). Hence Filtering is a neighborhood operation, in which the value of any given pixel in the output image is determined by applying some algorithm to the values of the pixels in the neighborhood of the corresponding input pixel. A pixel's neighborhood is some set of pixels, defined by their locations relative to that pixel. 
+ 
 
 ## 1. Smoothing Spatial Filter
+
 Smoothing filter is used for blurring and noise reduction in the image. Blurring is pre-processing steps for removal of small details and Noise Reduction is accomplished by blurring.
 
 ### *Average filter*
+
 The **average filter** is a uniform low pass filter. It is used to remove fine details and noise from the images.
 
 The problem with average filter is that it blurred the edges when large neighborhoods are used to remove noise. The Point Spread Function (PSF) of average filter is “Sinc” in special domain which has negative side lobes causes ringing effects as well. 
@@ -42,3 +46,5 @@ Canny edge detector is also used to detect edges in both directions. I used Otsu
 Image Sharpening is used to obtain fine detail such as lines and edges and remove blurred in an image. First of all, Laplacian which is a derivative filter is used as a high pass filter so it highlights the edges and lines in an image but derivative filters are sensitive to noise so it will also amplify the noise. This filter is applied on noise free image as its sensitive to noise. 
 
 Another way to obtain a sharpen image by using low pass filter as it used unsharp mask. First it blurred the image and subtract it from original image to produced an unsharp mask then this unsharp mask is added to original image to produce sharpen image.
+
+</p>
