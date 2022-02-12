@@ -10,6 +10,7 @@ The **average filter** is a uniform low pass filter. It is used to remove fine d
 
 The problem with average filter is that it blurred the edges when large neighborhoods are used to remove noise. The Point Spread Function (PSF) of average filter is “Sinc” in special domain which has negative side lobes causes ringing effects as well. 
 
+
 ### *Gaussian filter*
 The **Gaussian filter** is a non-uniform low pass filter. It is also used to remove fine details and noise from the images.
 
