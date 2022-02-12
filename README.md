@@ -38,7 +38,9 @@ Edge detection is an image processing technique for finding the boundaries of ob
 <p align="justify">
 Prewitt and Sobel filters are directional edge detector that are used to detect edges in either horizontal or vertical direction. A kernel of 11 by 11 for Prewitt and 7 by 7 for Sobel is used. It works by calculating the gradient of image intensity at each pixel within the image. The main advantage of these methods is that they are relatively simple in computation. But they have following disadvantages as they are directional, sensitive to noise, corners are often missed and the response to a step edge is across several pixels, so a post-processing is needed for "edge thinning".
 
-    
+![1_3](https://user-images.githubusercontent.com/84965044/153727033-deb3420a-2417-4e9d-84cd-08480cba9851.jpg)
+![1_4](https://user-images.githubusercontent.com/84965044/153727029-b6d04d96-b6e9-4e3d-a88b-dba0dfbb03bd.jpg)
+
     
 ### *Laplacian of Gaussian filter*
 <p align="justify">
