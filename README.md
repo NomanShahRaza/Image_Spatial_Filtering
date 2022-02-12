@@ -42,6 +42,12 @@ Prewitt and Sobel filters are directional edge detector that are used to detect 
 ![1_4](https://user-images.githubusercontent.com/84965044/153727029-b6d04d96-b6e9-4e3d-a88b-dba0dfbb03bd.jpg)
 
     
+![1_3](https://user-images.githubusercontent.com/84965044/153727358-34af10f0-a365-4348-8044-576130a84614.png)
+![1_4](https://user-images.githubusercontent.com/84965044/153727361-830df46d-6808-4345-81d4-ef3831f31ed6.png)
+    
+    
+
+    
 ### *Laplacian of Gaussian filter*
 <p align="justify">
     Laplacian of gaussian is edge detector that is used to detect edges in both horizontal and vertical directions. It easily detects edges and it has fixed characteristics in all direction. It fails to function properly at the corner, curves and where the gray level intensity function varies.
