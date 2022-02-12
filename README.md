@@ -23,3 +23,8 @@ Edge detection is an image processing technique for finding the boundaries of ob
 ### *Prewitt and Sobel filters*
 
 Prewitt and Sobel filters are directional edge detector that are used to detect edges in either horizontal or vertical direction. A kernel of 11 by 11 for Prewitt and 7 by 7 for Sobel is used. It works by calculating the gradient of image intensity at each pixel within the image. The main advantage of these methods is that they are relatively simple in computation. But they have following disadvantages as they are directional, sensitive to noise, corners are often missed and the response to a step edge is across several pixels, so a post-processing is needed for "edge thinning".
+
+
+### *Derivative of Gaussian filter*
+Derivative of gaussian is also directional edge detector that is used to detect edges in either horizontal or vertical direction. As derivatives are very sensitive to noise so First it smooths the images and then apply derivative to detect edges. The main advantage of derivative of gaussian, it is robust in noisy image. But it has following disadvantages as it is directional and post-processing is needed for "edge thinning" as the response to a step edge is across several pixels.
+
