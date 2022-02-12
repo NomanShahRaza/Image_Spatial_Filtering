@@ -9,23 +9,29 @@
 Smoothing filter is used for blurring and noise reduction in the image. Blurring is pre-processing steps for removal of small details and Noise Reduction is accomplished by blurring.
 
 ### *Average filter*
-<p align="justify">
+
 The **average filter** is a uniform low pass filter. It is used to remove fine details and noise from the images.
 
+<p align="justify">
 The problem with average filter is that it blurred the edges when large neighborhoods are used to remove noise. The Point Spread Function (PSF) of average filter is “Sinc” in special domain which has negative side lobes causes ringing effects as well. 
-
+</p>
 
 ### *Gaussian filter*
-<p align="justify">
+
 The **Gaussian filter** is a non-uniform low pass filter. It is also used to remove fine details and noise from the images.
 
+<p align="justify">
 The PSF of gaussian filter has positive side lobes which avoid ringing effects. The gaussian filter depend upon the value of standard deviation as larger values of standard deviation produce a wider peak (greater blurring).
-<p align="center">
+</p>
+
 ![1_1](https://user-images.githubusercontent.com/84965044/153725509-e6b05c2d-996e-4ff0-8c27-23b6f9c6d2d6.jpg)
+
 ![1_2](https://user-images.githubusercontent.com/84965044/153725507-9a10222f-ae2b-4436-9b8a-8a306ad84953.jpg)
 </p>
+
+
 ## 2. Edge detection filter
-<p align="justify">
+
 Edge detection is an image processing technique for finding the boundaries of objects within images. It works by detecting discontinuities in brightness.
 
 ### *Prewitt and Sobel filters*
