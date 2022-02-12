@@ -27,7 +27,7 @@ The PSF of gaussian filter has positive side lobes which avoid ringing effects. 
 ![1_1](https://user-images.githubusercontent.com/84965044/153725509-e6b05c2d-996e-4ff0-8c27-23b6f9c6d2d6.jpg)
 
 ![1_2](https://user-images.githubusercontent.com/84965044/153725507-9a10222f-ae2b-4436-9b8a-8a306ad84953.jpg)
-</p>
+
 
 
 ## 2. Edge detection filter
@@ -38,6 +38,8 @@ Edge detection is an image processing technique for finding the boundaries of ob
 <p align="justify">
 Prewitt and Sobel filters are directional edge detector that are used to detect edges in either horizontal or vertical direction. A kernel of 11 by 11 for Prewitt and 7 by 7 for Sobel is used. It works by calculating the gradient of image intensity at each pixel within the image. The main advantage of these methods is that they are relatively simple in computation. But they have following disadvantages as they are directional, sensitive to noise, corners are often missed and the response to a step edge is across several pixels, so a post-processing is needed for "edge thinning".
 
+    
+    
 ### *Laplacian of Gaussian filter*
 <p align="justify">
     Laplacian of gaussian is edge detector that is used to detect edges in both horizontal and vertical directions. It easily detects edges and it has fixed characteristics in all direction. It fails to function properly at the corner, curves and where the gray level intensity function varies.
