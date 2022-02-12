@@ -17,7 +17,7 @@ The **Gaussian filter** is a non-uniform low pass filter. It is also used to rem
 The PSF of gaussian filter has positive side lobes which avoid ringing effects. The gaussian filter depend upon the value of standard deviation as larger values of standard deviation produce a wider peak (greater blurring).
 
 
-## 1. Edge detection filter
+## 2. Edge detection filter
 Edge detection is an image processing technique for finding the boundaries of objects within images. It works by detecting discontinuities in brightness.
 
 ### *Prewitt and Sobel filters*
@@ -32,3 +32,11 @@ Derivative of gaussian is also directional edge detector that is used to detect 
 
 ### *Canny Edge Detector*
 Canny edge detector is also used to detect edges in both directions. I used Otsu's thresholding in canny detector as it performs automatic image thresholding. Canny edge detector has better detection specially in noise condition. It uses probability for finding the error rate, localization and response. But it has complex computation and false zero crossing as well.
+
+## 3. Image Sharpening Filter
+
+### *Using Laplacian and Average Smoothing filters*
+
+Image Sharpening is used to obtain fine detail such as lines and edges and remove blurred in an image. First of all, Laplacian which is a derivative filter is used as a high pass filter so it highlights the edges and lines in an image but derivative filters are sensitive to noise so it will also amplify the noise. This filter is applied on noise free image as its sensitive to noise. 
+
+Another way to obtain a sharpen image by using low pass filter as it used unsharp mask. First it blurred the image and subtract it from original image to produced an unsharp mask then this unsharp mask is added to original image to produce sharpen image.
