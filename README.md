@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🖼️ Image Spatial Filtering
+# 🖼️ Digital Image Spatial Filtering
 
 ### A practical exploration of image enhancement, edge detection, and sharpening in the spatial domain.
 
