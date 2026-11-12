@@ -175,7 +175,7 @@ cd Image_Spatial_Filtering
 
 <div align="center">
 
-### Noman Shah Raza
+### Noman Raza Shah
 
 **AI Specialist & Researcher**  
 Artificial Intelligence · Machine Learning · Computer Vision · Digital Image Processing
