@@ -7,6 +7,7 @@
 ![Digital Image Processing](https://img.shields.io/badge/Domain-Digital%20Image%20Processing-2563EB?style=for-the-badge)
 ![Spatial Filtering](https://img.shields.io/badge/Focus-Spatial%20Filtering-7C3AED?style=for-the-badge)
 ![Python and Jupyter](https://img.shields.io/badge/Tools-Python%20%7C%20Jupyter-F59E0B?style=for-the-badge)
+[![GitHub Stars](https://img.shields.io/github/stars/NomanShahRaza/Image_Spatial_Filtering?style=for-the-badge&logo=github&label=GitHub%20Stars&color=EAB308)](https://github.com/NomanShahRaza/Image_Spatial_Filtering/stargazers)
 
 **Explore how neighborhood-based filters transform images — from smoothing and noise reduction to edge extraction and detail enhancement.**
 
